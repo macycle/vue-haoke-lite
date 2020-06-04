@@ -1,0 +1,51 @@
+{
+  "language": "English",
+  "common": {
+    "error": "There are errors"
+  },
+  "sidebar": {
+    "admin": "Home",
+    "articleManage": "Manage",
+    "articleList": "Llist",
+    "articleListAdd": "Add",
+    "articleType": "Type",
+    "articleTypeAdd": "Add",
+    "productManage": "Manage",
+    "productList": "List",
+    "productListAdd": "Add",
+    "productType": "Type",
+    "productTypeAdd": "Add",
+    "orderManage": "Manage",
+    "orderList": "List",
+    "orderRefund": "Refund",
+    "orderComment": "Comment",
+    "userManage": "Manage",
+    "userList": "List",
+    "userListAdd": "Add",
+    "userGrade": "Grade",
+    "userGradeAdd": "Add",
+    "data": "Statistics",
+    "system": "System",
+    "profile": "Profile",
+    "password": "Password"
+  },
+  "menubar": {
+    "logout": "Sign out"
+  },
+  "login": {
+    "userName": "User Name",
+    "password":  "Password",
+    "sinIn": "Sing In",
+    "userNamePlaceholder": "please enter your username",
+    "passwordPlaceholder": "please enter your password",
+    "confirmPlaceholder": "please enter your password agin",
+    "loginError": "Login failed, try again later"
+  },
+  "system": {
+    "changePassword": "Change Password",
+    "password": "Current",
+    "newPassword": "New",
+    "confirmPassword": "Confirm",
+    "confirmModification": "Confirm Modification"
+  }
+}

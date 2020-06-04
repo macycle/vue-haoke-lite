@@ -1,0 +1,53 @@
+{
+  "language": "中文",
+  "common": {
+    "error": "发生错误",
+    "confirmModification": "确认修改"
+  },
+  "sidebar": {
+    "admin": "主页",
+    "articleManage": "文章管理",
+    "articleList": "文章列表",
+    "articleListAdd": "添加文章",
+    "articleType": "文章分类",
+    "articleTypeAdd": "添加分类",
+    "productManage": "商品管理",
+    "productList": "商品列表",
+    "productListAdd": "添加商品",
+    "productType": "商品分类",
+    "productTypeAdd": "添加分类",
+    "orderManage": "订单管理",
+    "orderList": "订单列表",
+    "orderRefund": "订单退货",
+    "orderComment": "订单评论",
+    "userManage": "用户管理",
+    "userList": "用户列表",
+    "userListAdd": "添加用户",
+    "userGrade": "用户等级",
+    "userGradeAdd": "添加等级",
+    "data": "数据统计",
+    "system": "系统设置",
+    "profile": "用户信息",
+    "password": "修改密码"
+  },
+  "menubar": {
+    "logout": "退出账号"
+  },
+  "login": {
+    "userName": "用户名",
+    "password":  "密码",
+    "sinIn": "登录",
+    "userNamePlaceholder": "请输入用户名",
+    "passwordPlaceholder": "请输入密码",
+    "confirmPlaceholder": "再次输入密码",
+    "loginError": "登录失败，稍后再试"
+  },
+  "changePassword": {
+    "password": "当前密码",
+    "newPassword": "新密码",
+    "confirmPassword": "确认密码"
+  },
+  "profile": {
+    "sex": "性别"
+  }
+}

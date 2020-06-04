@@ -1,0 +1,51 @@
+{
+  "language": "日本語",
+  "common": {
+    "error": "エラーが発生しました"
+  },
+  "sidebar": {
+    "admin": "ホームページ",
+    "articleManage": "記事の管理",
+    "articleList": "記事リスト",
+    "articleListAdd": "追加",
+    "articleType": "文章の分類",
+    "articleTypeAdd": "追加",
+    "productManage": "商品の管理",
+    "productList": "商品リスト",
+    "productListAdd": "追加",
+    "productType": "商品の分類",
+    "productTypeAdd": "追加",
+    "orderManage": "オーダー管理",
+    "orderList": "注文リスト",
+    "orderRefund": "注文返品",
+    "orderComment": "コメント",
+    "userManage": "ユーザー管理",
+    "userList": "ユーザーリスト",
+    "userListAdd": "追加",
+    "userGrade": "ユーザレベル",
+    "userGradeAdd": "追加",
+    "data": "データ統計",
+    "system": "システム設定",
+    "profile": "アカウント情報",
+    "password": "パスワードを変更"
+  },
+  "menubar": {
+    "logout": "アカウントを終了"
+  },
+  "login": {
+    "userName": "ユーザ名",
+    "password":  "パスワード",
+    "sinIn": "ログイン",
+    "userNamePlaceholder": "アカウントを入力してください",
+    "passwordPlaceholder": "パスワードを入力してください",
+    "confirmPlaceholder": "パスワードを再入力",
+    "loginError": "ログインに失敗しました。後でテストします。"
+  },
+  "system": {
+    "changePassword": "パスワードを変更",
+    "password": "現在",
+    "newPassword": "新",
+    "confirmPassword": "確認",
+    "confirmModification": "変更の確認"
+  }
+}

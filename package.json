@@ -1,0 +1,77 @@
+{
+  "name": "vue-admin-lite",
+  "version": "1.0.0",
+  "description": "none",
+  "author": "liqingyun <liqingyun.chn@qq.com>",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "dev": "npm run serve",
+    "build": "cross-env NODE_ENV=production vue-cli-service build --mode production",
+    "package": "git pull && npm run build && node upload && git add . && git commit -m 'package' &&  git push ",
+    "lint": "vue-cli-service lint --fix"
+  },
+  "dependencies": {
+    "js-cookie": "^2.2.1",
+    "nprogress": "0.2.0",
+    "screenfull": "^5.0.2",
+    "vue-i18n": "^8.17.4",
+    "vuex": "^3.3.0",
+    "path-to-regexp": "2.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.3",
+    "core-js": "^3.3.2",
+    "cross-env": "^6.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "postcss-import": "^12.0.1",
+    "postcss-url": "^8.0.0",
+    "vue-template-compiler": "2.6.11",
+    "mockjs": "^1.0.1-beta3"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "rules": {
+      "no-console": "off",
+      "vue/no-use-v-if-with-v-for": [
+        2,
+        {
+          "allowUsingIterationVar": false
+        }
+      ]
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-import": {},
+      "postcss-url": {},
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
