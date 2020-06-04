@@ -2,13 +2,6 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 // Router Modules
-import adminRouter from './modules/admin'
-import articleRouter from './modules/article'
-import productRouter from './modules/product'
-import orderRouter from './modules/order'
-import userRouter from './modules/user'
-import dataRouter from './modules/data'
-import systemRouter from './modules/system'
 
 Vue.use(Router)
 
@@ -16,7 +9,19 @@ Vue.use(Router)
 export const BASIC_ROUTES = [
   {
     path: '/(index)?',
-    redirect: '/login',
+    redirect: '/home',
+    hidden: true
+  },
+  {
+    path: '/home',
+    name: 'home',
+    component: () => import('@/views/home/index'),
+    hidden: true
+  },
+  {
+    path: '/register',
+    name: 'register',
+    component: () => import('@/views/register/index'),
     hidden: true
   },
   {
@@ -40,13 +45,12 @@ export const BASIC_ROUTES = [
 ]
 
 export const ASYNC_ROUTES = [
-  adminRouter,
-  articleRouter,
-  productRouter,
-  orderRouter,
-  userRouter,
-  dataRouter,
-  systemRouter,
+  // {
+  //   path: '/user',
+  //   name: 'user',
+  //   component: () => import('@/views/user/home'),
+  //   hidden: true
+  // },
   {
     noAuth: true,
     path: '*',

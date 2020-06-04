@@ -14,7 +14,7 @@ const routeInstance = new Vue({
 
 Vue.prototype.$matchedRoutes = routeInstance
 
-const WHITE_LIST = ['/login']
+const WHITE_LIST = ['/login', '/home']
 
 NProgress.configure({
   showSpinner: false
